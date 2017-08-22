@@ -1,0 +1,69 @@
+@charset 'utf-8';
+.index-bg {
+    background-color: #cf7d42;
+    .IndexMain-style {
+        background-color: #fff;
+        margin: 0 !important;
+        padding: 40px 1rem;
+        border-bottom: 10px solid #eeeeee;
+    }
+}
+
+.headerbar {
+    margin-bottom: 40px !important;
+    .headerbar-seg {
+        border-radius: 0 !important;
+        .i-label {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            margin-left: -.8rem !important;
+        }
+        h4 {
+            white-space: nowrap; //强制不换行
+            text-overflow: ellipsis; //超出的部分省略号显示
+            overflow: hidden;
+        }
+    }
+    .header:first-child {
+        padding-left: calc(54px + 1rem);
+        text-align: left;
+    }
+}
+
+.dividTitle {
+    width: 54px;
+    height: 54px;
+    background-color: orangered;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    padding-top: 7px;
+    p {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        line-height: 18px;
+    }
+    p:first-child {
+        font-size: 18px;
+        color: #fff;
+        vertical-align: bottom;
+    }
+    p:last-child {
+        font-size: 13px;
+    }
+}
+
+// .ui.items>.item>.image {
+//     width: 68px !important;
+// }
+// .ui.items>.item>.content>.header {
+//     font-size: 14px !important;
+//     font-weight: normal;
+//     font-family: 'Bitter', serif;
+//     margin-left: -1.8em;
+// }
+// .ui.items>.item .meta {
+//     margin: 0.5em 0 0.5em -9.5em !important;
+//     font-size: 12px !important;
+// }
