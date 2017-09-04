@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Menu, Icon } from 'semantic-ui-react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 export default class AppHeader extends React.Component {
   constructor(props) {
@@ -18,7 +19,7 @@ export default class AppHeader extends React.Component {
       <Grid>
         <Grid.Column computer={16} mobile={16}>
           <Menu inverted pointing stackable className="menubar">
-            <Menu.Item name="home" active={activeItem === 'home'} onClick={this.handleItemClick} />
+            <Menu.Item as={Link} to="/" name="home" active={activeItem === 'home'} onClick={this.handleItemClick} />
             <Menu.Item name="features" active={activeItem === 'features'} onClick={this.handleItemClick} />
             <Menu.Item name="blog" active={activeItem === 'blog'} onClick={this.handleItemClick} />
             <Menu.Item name="portofolio" active={activeItem === 'portofolio'} onClick={this.handleItemClick} />

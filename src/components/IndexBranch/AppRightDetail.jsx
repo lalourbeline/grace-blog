@@ -31,6 +31,7 @@ export default class AppRightDetail extends React.Component {
   }
 
   render() {
+    const carouselPicArr = ['34', '35', '36'];
     const { activeItem } = this.state;
     return (
       <div>
@@ -114,7 +115,12 @@ export default class AppRightDetail extends React.Component {
           <p className="bestRowP1">Aenean dictum pharetra nibh, sodales luctus felis aliquet at. Nulla vulputate venenatis orci [..]</p>
           <Grid.Column computer={16} className="focusPicture">
             <Carousel axis="horizontal" showThumbs={false} showStatus={false} autoPlay infiniteLoop emulateTouch>
-              <div>
+              {carouselPicArr.map(item =>
+                (<div key={item}>
+                  <img src={`../images/${item}.jpg`} alt="" />
+                </div>),
+              )}
+              {/* <div>
                 <img src="../images/34.jpg" alt="" />
               </div>
               <div>
@@ -122,7 +128,7 @@ export default class AppRightDetail extends React.Component {
               </div>
               <div>
                 <img src="../images/36.jpg" alt="" />
-              </div>
+              </div> */}
             </Carousel>
           </Grid.Column>
           <p>By mdkiwol  |  Jan. 7, 2013  |  15 comments</p>

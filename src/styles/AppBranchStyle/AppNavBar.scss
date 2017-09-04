@@ -14,4 +14,7 @@
     .item:hover {
         background-color: orangered !important;
     }
+    .dropdown.item .menu{
+      z-index: 101;
+    }
 }

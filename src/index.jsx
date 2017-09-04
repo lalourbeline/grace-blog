@@ -5,6 +5,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import AppIndex from './components/AppIndex';
 import NotMatch from './components/NotMatch';
+import singleMusci from './components/singleMusic';
 
 require('normalize.css/normalize.css');
 require('styles/App.scss');
@@ -13,6 +14,7 @@ ReactDOM.render((
   <Router>
     <Switch>
       <Route exact path="/" component={AppIndex} />
+      <Route path="/singmusic" component={singleMusci} />
       <Route component={NotMatch} />
     </Switch>
   </Router>

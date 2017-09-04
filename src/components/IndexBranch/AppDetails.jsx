@@ -83,7 +83,7 @@ export default class AppDetails extends React.Component {
                   </Grid.Column>
                   <Grid.Column computer={11}>
                     <p><a>{'Small Market and St. Sebastian\'s Square in Opole'}</a> by mdkiwol</p>
-                    <p><Progress percent={70} color="orange" size="small" /></p>
+                    <div><Progress percent={70} color="orange" size="small" /></div>
                   </Grid.Column>
                 </Grid>
                 <Grid className="dir_p_item">
@@ -93,7 +93,7 @@ export default class AppDetails extends React.Component {
                   </Grid.Column>
                   <Grid.Column computer={11}>
                     <p><a>{'Small Market and St. Sebastian\'s Square in Opole'}</a> by mdkiwol</p>
-                    <p><Progress percent={55} color="orange" size="small" /></p>
+                    <div><Progress percent={70} color="orange" size="small" /></div>
                   </Grid.Column>
                 </Grid>
                 <Grid className="dir_p_item">
@@ -103,7 +103,7 @@ export default class AppDetails extends React.Component {
                   </Grid.Column>
                   <Grid.Column computer={11}>
                     <p><a>{'Small Market and St. Sebastian\'s Square in Opole'}</a> by mdkiwol</p>
-                    <p><Progress percent={100} color="orange" size="small" /></p>
+                    <div><Progress percent={70} color="orange" size="small" /></div>
                   </Grid.Column>
                 </Grid>
               </Card.Content>

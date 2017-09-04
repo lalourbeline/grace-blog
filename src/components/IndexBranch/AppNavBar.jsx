@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Menu, Input, Image, Dropdown } from 'semantic-ui-react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 export default class AppNavBar extends React.Component {
   constructor(props) {
@@ -58,7 +59,7 @@ export default class AppNavBar extends React.Component {
           </Dropdown>
           <Dropdown text="music" pointing className="link item">
             <Dropdown.Menu>
-              <Dropdown.Item>single music</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/singmusic" >single music</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
           <Dropdown text="review" pointing className="link item">

@@ -7,6 +7,8 @@
 @import './core/style.scss';
 //AppIndex
 @import '../styles/AppIndex.scss';
+//CarouselCom
+@import '../styles/AppBranchStyle/CarouselCom.scss';
 //AppHeader
 @import '../styles/AppBranchStyle/AppHeader.scss';
 //AppNavBar
@@ -19,3 +21,5 @@
 @import '../styles/AppBranchStyle/AppRightDetail.scss';
 //AppFooter
 @import '../styles/AppBranchStyle/AppFooter.scss';
+//singleMusic
+@import '../styles/singleMusic.scss';
