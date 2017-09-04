@@ -25,7 +25,7 @@ export default class CarouselCom extends React.Component {
   render() {
     return (
       <div className="carouse-container" id="carouseContainer">
-        <img src={`../images/${this.state.picSrc}.jpg`} alt="" />
+        <img src={`http://oum6qj3qr.bkt.clouddn.com/${this.state.picSrc}.jpg`} alt="" />
       </div>
     );
   }

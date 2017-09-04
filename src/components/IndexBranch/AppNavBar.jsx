@@ -19,7 +19,7 @@ export default class AppNavBar extends React.Component {
       <div className="navBar">
         <Grid>
           <Grid.Column computer={8} mobile={16}>
-            <Image src="../images/logo.png" />
+            <Image src="http://oum6qj3qr.bkt.clouddn.com/logo.png" />
           </Grid.Column>
           <Grid.Column computer={8} mobile={16}>
             <Menu.Item className="navBarSearch">

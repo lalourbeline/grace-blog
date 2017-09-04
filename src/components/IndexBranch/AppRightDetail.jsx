@@ -55,7 +55,7 @@ export default class AppRightDetail extends React.Component {
         <Grid.Row className="itemGroupShow">
           <Grid>
             <Grid.Column computer={4} mobile={16}>
-              <img src="../images/12.jpg" alt="" />
+              <img src="http://oum6qj3qr.bkt.clouddn.com/12.jpg" alt="" />
             </Grid.Column>
             <Grid.Column computer={12} mobile={16}>
               <p><a>{'Small Market and St. Sebastian\'s Square in Opole'}</a></p>
@@ -64,7 +64,7 @@ export default class AppRightDetail extends React.Component {
           </Grid>
           <Grid>
             <Grid.Column computer={4} mobile={16}>
-              <img src="../images/12.jpg" alt="" />
+              <img src="http://oum6qj3qr.bkt.clouddn.com/12.jpg" alt="" />
             </Grid.Column>
             <Grid.Column computer={12} mobile={16}>
               <p><a>{'Small Market and St. Sebastian\'s Square in Opole'}</a></p>
@@ -73,7 +73,7 @@ export default class AppRightDetail extends React.Component {
           </Grid>
           <Grid>
             <Grid.Column computer={4} mobile={16}>
-              <img src="../images/12.jpg" alt="" />
+              <img src="http://oum6qj3qr.bkt.clouddn.com/12.jpg" alt="" />
             </Grid.Column>
             <Grid.Column computer={12} mobile={16}>
               <p><a>{'Small Market and St. Sebastian\'s Square in Opole'}</a></p>
@@ -82,7 +82,7 @@ export default class AppRightDetail extends React.Component {
           </Grid>
           <Grid>
             <Grid.Column computer={4} mobile={16}>
-              <img src="../images/12.jpg" alt="" />
+              <img src="http://oum6qj3qr.bkt.clouddn.com/12.jpg" alt="" />
             </Grid.Column>
             <Grid.Column computer={12} mobile={16}>
               <p><a>{'Small Market and St. Sebastian\'s Square in Opole'}</a></p>
@@ -91,7 +91,7 @@ export default class AppRightDetail extends React.Component {
           </Grid>
           <Grid>
             <Grid.Column computer={4} mobile={16}>
-              <img src="../images/12.jpg" alt="" />
+              <img src="http://oum6qj3qr.bkt.clouddn.com/12.jpg" alt="" />
             </Grid.Column>
             <Grid.Column computer={12} mobile={16}>
               <p><a>{'Small Market and St. Sebastian\'s Square in Opole'}</a></p>
@@ -103,10 +103,10 @@ export default class AppRightDetail extends React.Component {
           <div className="littleTitle">
             <div className="title">SPONSORS</div>
           </div>
-          <div className="spImg"><img src="../images/180x180.png" alt="" /></div>
-          <div className="spImg"><img src="../images/180x180.png" alt="" /></div>
-          <div className="spImg"><img src="../images/180x180.png" alt="" /></div>
-          <div className="spImg"><img src="../images/180x180.png" alt="" /></div>
+          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/180x180.png" alt="" /></div>
+          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/180x180.png" alt="" /></div>
+          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/180x180.png" alt="" /></div>
+          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/180x180.png" alt="" /></div>
         </Grid.Row>
         <Grid.Row className="bestRow">
           <div className="littleTitle">
@@ -117,17 +117,17 @@ export default class AppRightDetail extends React.Component {
             <Carousel axis="horizontal" showThumbs={false} showStatus={false} autoPlay infiniteLoop emulateTouch>
               {carouselPicArr.map(item =>
                 (<div key={item}>
-                  <img src={`../images/${item}.jpg`} alt="" />
+                  <img src={`http://oum6qj3qr.bkt.clouddn.com/${item}.jpg`} alt="" />
                 </div>),
               )}
               {/* <div>
-                <img src="../images/34.jpg" alt="" />
+                <img src="http://oum6qj3qr.bkt.clouddn.com/34.jpg" alt="" />
               </div>
               <div>
-                <img src="../images/35.jpg" alt="" />
+                <img src="http://oum6qj3qr.bkt.clouddn.com/35.jpg" alt="" />
               </div>
               <div>
-                <img src="../images/36.jpg" alt="" />
+                <img src="http://oum6qj3qr.bkt.clouddn.com/36.jpg" alt="" />
               </div> */}
             </Carousel>
           </Grid.Column>
@@ -153,7 +153,7 @@ export default class AppRightDetail extends React.Component {
           <Grid.Column computer={16} className="focusPicture">
             <Embed
               id="125292332"
-              placeholder="../images/vimeo-example.jpg"
+              placeholder="http://oum6qj3qr.bkt.clouddn.com/vimeo-example.jpg"
               source="vimeo"
             />
           </Grid.Column>

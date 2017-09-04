@@ -25,7 +25,7 @@ export default class AppFooter extends React.Component {
             </header>
             <Grid className="twitterGrid">
               <Grid.Column computer={4}>
-                <img src="../images/picons.png" alt="" />
+                <img src="http://oum6qj3qr.bkt.clouddn.com/picons.png" alt="" />
               </Grid.Column>
               <Grid.Column computer={12}>
                 <p>{'@realt0rlife That\'s a very good question :) You may want to contact the author. There\'s a form on the right when you click their name.'}</p>
@@ -33,7 +33,7 @@ export default class AppFooter extends React.Component {
             </Grid>
             <Grid className="twitterGrid">
               <Grid.Column computer={4}>
-                <img src="../images/picons.png" alt="" />
+                <img src="http://oum6qj3qr.bkt.clouddn.com/picons.png" alt="" />
               </Grid.Column>
               <Grid.Column computer={12}>
                 <p>{'@realt0rlife That\'s a very good question :) You may want to contact the author. There\'s a form on the right when you click their name.'}</p>
@@ -45,15 +45,15 @@ export default class AppFooter extends React.Component {
               <h4>FLICKR PHOTOS</h4>
             </header>
             <div className="photoImgList">
-              <div><img src="../images/22.jpg" alt="" /></div>
-              <div><img src="../images/23.jpg" alt="" /></div>
-              <div><img src="../images/24.jpg" alt="" /></div>
-              <div><img src="../images/25.jpg" alt="" /></div>
-              <div><img src="../images/26.jpg" alt="" /></div>
-              <div><img src="../images/27.jpg" alt="" /></div>
-              <div><img src="../images/28.jpg" alt="" /></div>
-              <div><img src="../images/29.jpg" alt="" /></div>
-              <div><img src="../images/30.jpg" alt="" /></div>
+              <div><img src="http://oum6qj3qr.bkt.clouddn.com/22.jpg" alt="" /></div>
+              <div><img src="http://oum6qj3qr.bkt.clouddn.com/23.jpg" alt="" /></div>
+              <div><img src="http://oum6qj3qr.bkt.clouddn.com/24.jpg" alt="" /></div>
+              <div><img src="http://oum6qj3qr.bkt.clouddn.com/25.jpg" alt="" /></div>
+              <div><img src="http://oum6qj3qr.bkt.clouddn.com/26.jpg" alt="" /></div>
+              <div><img src="http://oum6qj3qr.bkt.clouddn.com/27.jpg" alt="" /></div>
+              <div><img src="http://oum6qj3qr.bkt.clouddn.com/28.jpg" alt="" /></div>
+              <div><img src="http://oum6qj3qr.bkt.clouddn.com/29.jpg" alt="" /></div>
+              <div><img src="http://oum6qj3qr.bkt.clouddn.com/30.jpg" alt="" /></div>
             </div>
           </Grid.Column>
         </Grid>

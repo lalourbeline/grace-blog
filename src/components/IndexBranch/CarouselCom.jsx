@@ -55,7 +55,7 @@ export default class CarouselCom extends React.Component {
             this.state.picIndexArr.map((item, i) =>
               (<img
                 key={item.src}
-                src={`../images/${item.src}.jpg`}
+                src={`http://oum6qj3qr.bkt.clouddn.com/${item.src}.jpg`}
                 className={item.sClass ? 'animated fadeIn' : 'animated fadeOut'}
                 style={{ zIndex: item.sIndex }}
                 alt=""

@@ -98,7 +98,7 @@ export default class singleMusic extends React.Component {
                     <h4>About The Author</h4>
                     <Item.Group>
                       <Item>
-                        <Item.Image size="small" src="../images/37.jpg" />
+                        <Item.Image size="small" src="http://oum6qj3qr.bkt.clouddn.com/37.jpg" />
                         <Item.Content>
                           <Item.Header as="a">Mugiwara Kiwolen</Item.Header>
                           <Item.Description>
@@ -126,19 +126,19 @@ export default class singleMusic extends React.Component {
                     <h3>Related Posts</h3>
                     <div className="relatImg">
                       <div className="no-paddingLeft">
-                        <img src="../images/38.jpg" alt="" />
+                        <img src="http://oum6qj3qr.bkt.clouddn.com/38.jpg" alt="" />
                         <p>{'Small Market and St. Sebastian\'s Square in Opole'}</p>
                       </div>
                       <div>
-                        <img src="../images/39.jpg" alt="" />
+                        <img src="http://oum6qj3qr.bkt.clouddn.com/39.jpg" alt="" />
                         <p>Living Room in Italy</p>
                       </div>
                       <div>
-                        <img src="../images/40.jpg" alt="" />
+                        <img src="http://oum6qj3qr.bkt.clouddn.com/40.jpg" alt="" />
                         <p>Platform House with Minimal Design</p>
                       </div>
                       <div className="no-paddingRight">
-                        <img src="../images/41.jpg" alt="" />
+                        <img src="http://oum6qj3qr.bkt.clouddn.com/41.jpg" alt="" />
                         <p>Mosaic Pool is Very Amazing And Beautiful</p>
                       </div>
                     </div>
@@ -150,7 +150,7 @@ export default class singleMusic extends React.Component {
                     <Comment.Group className="commentContentGroup">
                       <Header as="h3" dividing>8 Comments To This Article</Header>
                       <Comment>
-                        <Comment.Avatar as="a" src="../images/42.jpg" />
+                        <Comment.Avatar as="a" src="http://oum6qj3qr.bkt.clouddn.com/42.jpg" />
                         <Comment.Content>
                           <Comment.Author as="a">AMAH SYNER HOLLAND</Comment.Author>
                           <Comment.Metadata>
@@ -162,7 +162,7 @@ export default class singleMusic extends React.Component {
                       </Comment>
 
                       <Comment>
-                        <Comment.Avatar as="a" src="../images/43.jpg" />
+                        <Comment.Avatar as="a" src="http://oum6qj3qr.bkt.clouddn.com/43.jpg" />
                         <Comment.Content>
                           <Comment.Author as="a">MUGIWARA KIWOLEN</Comment.Author>
                           <Comment.Metadata>
@@ -175,7 +175,7 @@ export default class singleMusic extends React.Component {
                         </Comment.Content>
                         <Comment.Group>
                           <Comment>
-                            <Comment.Avatar as="a" src="../images/42.jpg" />
+                            <Comment.Avatar as="a" src="http://oum6qj3qr.bkt.clouddn.com/42.jpg" />
                             <Comment.Content>
                               <Comment.Author as="a">AMAH SYNER HOLLAND</Comment.Author>
                               <Comment.Metadata>
@@ -188,7 +188,7 @@ export default class singleMusic extends React.Component {
 
                           <Comment.Group>
                             <Comment>
-                              <Comment.Avatar as="a" src="../images/43.jpg" />
+                              <Comment.Avatar as="a" src="http://oum6qj3qr.bkt.clouddn.com/43.jpg" />
                               <Comment.Content>
                                 <Comment.Author as="a">MUGIWARA KIWOLEN</Comment.Author>
                                 <Comment.Metadata>
@@ -200,7 +200,7 @@ export default class singleMusic extends React.Component {
                             </Comment>
 
                             <Comment>
-                              <Comment.Avatar as="a" src="../images/37.jpg" />
+                              <Comment.Avatar as="a" src="http://oum6qj3qr.bkt.clouddn.com/37.jpg" />
                               <Comment.Content>
                                 <Comment.Author as="a">RENDY JAGERJACK</Comment.Author>
                                 <Comment.Metadata>
@@ -213,7 +213,7 @@ export default class singleMusic extends React.Component {
                           </Comment.Group>
 
                           <Comment>
-                            <Comment.Avatar as="a" src="../images/44.jpg" />
+                            <Comment.Avatar as="a" src="http://oum6qj3qr.bkt.clouddn.com/44.jpg" />
                             <Comment.Content>
                               <Comment.Author as="a">JOHN DONN</Comment.Author>
                               <Comment.Metadata>
@@ -227,7 +227,7 @@ export default class singleMusic extends React.Component {
                       </Comment>
 
                       <Comment>
-                        <Comment.Avatar as="a" src="../images/43.jpg" />
+                        <Comment.Avatar as="a" src="http://oum6qj3qr.bkt.clouddn.com/43.jpg" />
                         <Comment.Content>
                           <Comment.Author as="a">MUGIWARA KIWOLEN</Comment.Author>
                           <Comment.Metadata>
@@ -239,7 +239,7 @@ export default class singleMusic extends React.Component {
                       </Comment>
 
                       <Comment>
-                        <Comment.Avatar as="a" src="../images/37.jpg" />
+                        <Comment.Avatar as="a" src="http://oum6qj3qr.bkt.clouddn.com/37.jpg" />
                         <Comment.Content>
                           <Comment.Author as="a">RENDY JAGERJACK</Comment.Author>
                           <Comment.Metadata>
