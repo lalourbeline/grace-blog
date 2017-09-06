@@ -1,3 +1,4 @@
+/*eslint-disable*/
 'use strict';
 
 let path = require('path');
@@ -37,3 +38,4 @@ config.module.loaders.push({
 });
 
 module.exports = config;
+/*eslint-enable*/

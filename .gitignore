@@ -31,3 +31,9 @@ bower_components/
 
 # IDE/Editor data
 .idea
+
+# Output files
+dist
+
+# MacOs X config file
+\.DS_Store
