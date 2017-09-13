@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Menu, Input, Image, Dropdown } from 'semantic-ui-react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 
 export default class AppNavBar extends React.Component {
   constructor(props) {

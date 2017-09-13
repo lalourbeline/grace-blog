@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Menu, Icon } from 'semantic-ui-react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 
 export default class AppHeader extends React.Component {
   constructor(props) {
