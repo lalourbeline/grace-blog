@@ -1,7 +1,9 @@
 import React from 'react';
 import { Grid, Menu, Icon } from 'semantic-ui-react';
+// 不要删这里的Router,Rout
+/* eslint-disable */
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-
+/* eslint-enable */
 export default class AppHeader extends React.Component {
   constructor(props) {
     super(props);
