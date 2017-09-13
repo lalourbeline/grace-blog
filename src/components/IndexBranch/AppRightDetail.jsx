@@ -103,10 +103,10 @@ export default class AppRightDetail extends React.Component {
           <div className="littleTitle">
             <div className="title">SPONSORS</div>
           </div>
-          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/180x180.png" alt="" /></div>
-          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/180x180.png" alt="" /></div>
-          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/180x180.png" alt="" /></div>
-          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/180x180.png" alt="" /></div>
+          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/hand-2722098_640.jpg" alt="" /></div>
+          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/coffee-2456899_640.jpg" alt="" /></div>
+          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/still-2607786_640.jpg" alt="" /></div>
+          <div className="spImg"><img src="http://oum6qj3qr.bkt.clouddn.com/sunset-2723818_640.jpg" alt="" /></div>
         </Grid.Row>
         <Grid.Row className="bestRow">
           <div className="littleTitle">

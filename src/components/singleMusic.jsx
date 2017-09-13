@@ -28,7 +28,6 @@ export default class singleMusic extends React.Component {
                     </Breadcrumb>
                   </Grid.Column>
                 </Grid>
-                {/* <Grid className="burnVedio"></Grid> */}
                 <Grid className="musicContent">
                   <Grid.Column computer={16} mobile={16} className="contentHead">
                     <h5>by mugiwara kiwolen</h5>
