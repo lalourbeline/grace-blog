@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Segment, Breadcrumb, Progress, Label, Item, Comment, Header, Form, Button } from 'semantic-ui-react';
+import { Container, Grid, Breadcrumb, Progress, Label, Item, Comment, Header, Form, Button } from 'semantic-ui-react';
 import AppHeader from '../components/IndexBranch/AppHeader';
 import AppNavBar from '../components/IndexBranch/AppNavBar';
 import AppRightDetail from '../components/IndexBranch/AppRightDetail';
@@ -28,7 +28,6 @@ export default class singleMusic extends React.Component {
                     </Breadcrumb>
                   </Grid.Column>
                 </Grid>
-                <Grid className="burnVedio"></Grid>
                 <Grid className="musicContent">
                   <Grid.Column computer={16} mobile={16} className="contentHead">
                     <h5>by mugiwara kiwolen</h5>

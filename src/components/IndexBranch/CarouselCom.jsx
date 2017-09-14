@@ -52,7 +52,7 @@ export default class CarouselCom extends React.Component {
       <div className="carousel-left">
         <div className="carouse-container" id="carouseContainer">
           {
-            this.state.picIndexArr.map((item, i) =>
+            this.state.picIndexArr.map(item =>
               (<img
                 key={item.src}
                 src={`http://oum6qj3qr.bkt.clouddn.com/${item.src}.jpg`}
