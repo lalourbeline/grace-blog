@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+const React = require('react');
 
 export default class CarouselCom extends React.Component {
   constructor(prop) {

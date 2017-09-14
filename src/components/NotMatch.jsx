@@ -1,7 +1,10 @@
-import React from 'react';
+// import React from 'react';
+
 import { Container, Icon, Button } from 'semantic-ui-react';
 
 import { BrowserRouter as Link } from 'react-router-dom';
+
+const React = require('react');
 
 export default class NotMatch extends React.Component {
   render() {

@@ -1,5 +1,8 @@
-import React from 'react';
+// import React from 'react';
+
 import { Grid, Label, Card, Progress } from 'semantic-ui-react';
+
+const React = require('react');
 
 export default class AppDetails extends React.Component {
   render() {

@@ -63,6 +63,7 @@
     "react/no-multi-comp": "off",
     "global-require": "warn",
     "import/no-dynamic-require": "warn",
-    "jsx-a11y/href-no-hash": "off"
+    "jsx-a11y/href-no-hash": "off",
+    "import/no-webpack-loader-syntax": "off"
   }
 }

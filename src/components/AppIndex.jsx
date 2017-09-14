@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+
 import { Container, Grid, Segment, Header } from 'semantic-ui-react';
 import AppHeader from '../components/IndexBranch/AppHeader';
 import AppNavBar from '../components/IndexBranch/AppNavBar';
@@ -6,6 +7,8 @@ import AppCarousel from '../components/IndexBranch/AppCarousel';
 import AppDetails from '../components/IndexBranch/AppDetails';
 import AppRightDetail from '../components/IndexBranch/AppRightDetail';
 import AppFooter from '../components/IndexBranch/AppFooter';
+
+const React = require('react');
 
 class AppIndex extends React.Component {
   render() {

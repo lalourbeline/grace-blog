@@ -1,9 +1,13 @@
-import React from 'react';
-import { Container, Grid, Breadcrumb, Progress, Label, Item, Comment, Header, Form, Button } from 'semantic-ui-react';
+// import React from 'react';
+
+import {
+  Container, Grid, Breadcrumb, Progress, Label, Item, Comment, Header, Form, Button } from 'semantic-ui-react';
 import AppHeader from '../components/IndexBranch/AppHeader';
 import AppNavBar from '../components/IndexBranch/AppNavBar';
 import AppRightDetail from '../components/IndexBranch/AppRightDetail';
 import AppFooter from '../components/IndexBranch/AppFooter';
+
+const React = require('react');
 
 export default class singleMusic extends React.Component {
   render() {

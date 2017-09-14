@@ -1,7 +1,12 @@
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel'; import 'react-responsive-carousel/lib/styles/carousel.min.css';
+// import React from 'react';
+
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Grid, Menu, Icon, Form, Button, Embed } from 'semantic-ui-react';
-import moment from 'moment';
+// import moment from 'moment';
+
+const React = require('react');
+const moment = require('moment');
 
 export default class AppRightDetail extends React.Component {
   constructor(props) {

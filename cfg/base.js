@@ -15,6 +15,9 @@ module.exports = {
   port: defaultSettings.port,
   debug: true,
   devtool: 'eval',
+  externals: {
+    moment: 'moment',
+  },
   output: {
     path: path.join(__dirname, '/../dist'),
     filename: 'app.js',

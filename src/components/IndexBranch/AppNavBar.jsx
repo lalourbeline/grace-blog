@@ -1,5 +1,9 @@
-import React from 'react';
+// import React from 'react';
+
 import { Grid, Menu, Input, Image, Dropdown } from 'semantic-ui-react';
+
+const React = require('react');
+
 // 不要删这里的Router,Rout
 /* eslint-disable */
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';

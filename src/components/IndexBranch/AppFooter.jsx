@@ -1,5 +1,8 @@
-import React from 'react';
+// import React from 'react';
+
 import { Grid, Label, Icon } from 'semantic-ui-react';
+
+const React = require('react');
 
 export default class AppFooter extends React.Component {
   render() {

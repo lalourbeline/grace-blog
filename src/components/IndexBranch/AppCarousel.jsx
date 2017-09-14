@@ -1,7 +1,9 @@
-import React from 'react';
+// import React from 'react';
+
 import { Grid } from 'semantic-ui-react';
 import CarouselCom from './CarouselCom';
 // import CarouselCom from './CarouselCom1';
+const React = require('react');
 
 export default class AppCarousel extends React.Component {
   render() {
