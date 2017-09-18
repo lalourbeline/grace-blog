@@ -5,9 +5,10 @@ import ReactDOM from 'react-dom';
 import AppIndex from './components/AppIndex';
 import NotMatch from './components/NotMatch';
 import singleMusci from './components/singleMusic';
+import './styles/App.scss';
 
 const React = require('react');
-require('styles/App.scss');
+// require('styles/App.scss');
 // Render the main component into the dom
 ReactDOM.render((
   <Router>
