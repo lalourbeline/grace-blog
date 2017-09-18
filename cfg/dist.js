@@ -15,16 +15,15 @@ const config = Object.assign({}, baseConfig, {
   devtool: 'sourcemap',
   plugins: [
     new webpack.optimize.DedupePlugin(),
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': '"production"',
-    }),
-    new BowerWebpackPlugin({
-      searchResolveModulesDirectories: false,
-    }),
-    new webpack.optimize.UglifyJsPlugin(),
-    new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.optimize.AggressiveMergingPlugin(),
-    new webpack.NoErrorsPlugin(),
+    // new webpack.DefinePlugin({
+    //   'process.env.NODE_ENV': '"production"',
+    // }),
+    // new BowerWebpackPlugin({
+    //   searchResolveModulesDirectories: false,
+    // }),
+    // new webpack.optimize.OccurenceOrderPlugin(),
+    // new webpack.optimize.AggressiveMergingPlugin(),
+    // new webpack.NoErrorsPlugin(),
     // 代码压缩
     new webpack.optimize.UglifyJsPlugin({
       compress: {
