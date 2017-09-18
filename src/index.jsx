@@ -12,8 +12,8 @@ require('styles/App.scss');
 ReactDOM.render((
   <Router>
     <Switch>
-      <Route exact path="/" component={AppIndex} />
-      <Route path="/singmusic" component={singleMusci} />
+      <Route exact path="/grace-blog/" component={AppIndex} />
+      <Route path="/grace-blog/singmusic" component={singleMusci} />
       <Route component={NotMatch} />
     </Switch>
   </Router>
