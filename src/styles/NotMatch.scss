@@ -1,0 +1,48 @@
+@charset 'utf-8';
+.notmatch-bg {
+  background-color: #b396ff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  p:first-child {
+    color: #FFF;
+    font-size: 48px;
+    margin: 35px 0 0 0;
+    font-family: 'Jackey_HandWritc810a492f19fe1';
+  }
+  p:nth-child(2) {
+    color: #FFF;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+    font-family: 'Jackey_HandWritc810a492f19fe1';
+  }
+  p:nth-child(3) {
+    color: #FFF;
+    font-size: 150px;
+    margin: 0 0 10px 0;
+    font-family: 'Jackey_HandWritc810a492f19fe1';
+  }
+  p:nth-child(4) {
+    color: #FFF;
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    font-family: 'Jackey_HandWritc810a492f19fe1';
+  }
+  p:nth-child(5) {
+    color: #FFF;
+    font-size: 5em;
+    margin: 10px 0 0 0;
+  }
+  Button {
+    a {
+      color: #FFF;
+      font-size: 20px;
+      font-family: 'LiDeBiao-Xing3c83a2982c19fe1';
+    }
+    .icon-home3{
+      font-size: 16px;
+    }
+  }
+}

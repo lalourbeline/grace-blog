@@ -1,0 +1,25 @@
+@charset 'utf-8';
+//reset
+@import './core/Reset.scss';
+//404style
+@import './NotMatch.scss';
+// Icomoon
+@import './core/style.scss';
+//AppIndex
+@import '../styles/AppIndex.scss';
+//CarouselCom
+@import '../styles/AppBranchStyle/CarouselCom.scss';
+//AppHeader
+@import '../styles/AppBranchStyle/AppHeader.scss';
+//AppNavBar
+@import '../styles/AppBranchStyle/AppNavBar.scss';
+//AppCarousel
+@import '../styles/AppBranchStyle/AppCarousel.scss';
+//AppDetails
+@import '../styles/AppBranchStyle/AppDetails.scss';
+//AppRightDetail
+@import '../styles/AppBranchStyle/AppRightDetail.scss';
+//AppFooter
+@import '../styles/AppBranchStyle/AppFooter.scss';
+//singleMusic
+@import '../styles/singleMusic.scss';

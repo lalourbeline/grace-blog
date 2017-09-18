@@ -1,0 +1,12 @@
+@charset 'utf-8';
+.menubar {
+    background: #3a3a3a !important;
+    padding: 0 25px !important;
+    font-family: 'Open Sans', Arial, sans-serif !important;
+    .item::before {
+        width: 0 !important;
+    }
+    .iconstyle i {
+        margin-right: 0 !important;
+    }
+}

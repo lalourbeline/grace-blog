@@ -1,0 +1,20 @@
+@charset 'utf-8';
+.navBar {
+    margin-bottom: 25px;
+    .navBarSearch {
+        margin-top: 20px;
+    }
+}
+
+.navBarMenu {
+    margin-top: 3rem !important;
+    background: #3a3a3a !important;
+    font-family: 'Open Sans', Arial, sans-serif !important;
+    font-size: 18px !important;
+    .item:hover {
+        background-color: orangered !important;
+    }
+    .dropdown.item .menu{
+      z-index: 101;
+    }
+}
