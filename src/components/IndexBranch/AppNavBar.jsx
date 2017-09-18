@@ -65,7 +65,7 @@ export default class AppNavBar extends React.Component {
           </Dropdown>
           <Dropdown text="music" pointing className="link item">
             <Dropdown.Menu>
-              <Dropdown.Item as={Link} to="/singmusic" >single music</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/grace-blog/singmusic" >single music</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
           <Dropdown text="review" pointing className="link item">

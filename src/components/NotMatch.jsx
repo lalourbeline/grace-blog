@@ -18,7 +18,7 @@ export default class NotMatch extends React.Component {
           <p><Icon className="icon-bulb" /></p>
           <Button primary>
             <Icon className="icon-home3" />
-            <Link to="/">返回首页</Link>
+            <Link to="/grace-blog/">返回首页</Link>
           </Button>
         </Container>
       </div>
